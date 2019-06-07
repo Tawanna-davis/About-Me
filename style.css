@@ -7,13 +7,12 @@ html {
 }
 
 .header {
-  border: 3px solid #e9cece;
-  background-color: white;
   text-align: Center;
   color: #dab457;
   font-size: 4em;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 h1,
 h2,
@@ -21,9 +20,8 @@ h3 {
   text-align: center;
   color: #3a5154;
 }
-/* for the navigation bar  */
-/* .navigation {
-  height: 50px;
+/* .navigation{
+  height: 15px;
   background-color: #dab457; */
 }
 /*for all of the navigation bar as a whole */
@@ -34,12 +32,13 @@ h3 {
   margin-left: 100px;
   font-size: 40px;
   text-align: center;
+  background-color: #bc7d7b;
 }
 /* controls links */
 .navigation li {
   display: block;
   width: 0px;
-  background-color: #bc7d7b;
+
 }
 .navigation a {
   color: #bc7b7d;
@@ -53,15 +52,49 @@ li a:hover:not(.active) {
   background-color: #bc7b7d;
   color: #dab457;
 }
-
-h1 {
-  color: #bc7b7d;
+#welcome{
+transform: rotate(90deg);
 }
+img.profile{
+border:4px solid #bc7b7d;
+display: block;
+margin-left: auto;
+margin-right: auto;
+  width:50%;
+  height: 400px;
+
+}
+
 
 .resume {
   border: 5px solid #bc7b7d;
   width: 300px;
+
 }
 .resume:hover {
   box-shadow: 0 0 2px 1px #dab457;
+}
+h1{
+  color: #dab457;
+  font-size:50px;
+}
+.grid-container{
+  display: grid;
+grid-template-columns: auto auto ;
+background-color:white;
+padding:10px;
+}
+.grid-item2{
+  border-right: 2px solid #bc7b7d;
+  padding:20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item{
+  background-color: #bc7b7d;
+  border-left: 2px solid #bc7b7d;
+  padding: 20px;
+  font-size: 30px;
+  text-align: right;
+
 }
